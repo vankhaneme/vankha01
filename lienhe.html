@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Liên hệ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family:'Times New Roman', Times, serif;
+            background-color: #d8a159;
+        }
+        
+        header {
+            background-color: rgb(233, 144, 10);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 10px 30px;
+        }
+       header img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        header a{
+           color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+        }
+        header a:hover {
+            background-color: #6b4028;
+            border-radius: 5px;
+        }
+        form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    }
+        footer {
+            background: #ee8a07;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+          nav {
+    height: 50px;
+    background-color: #ec5711;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    }
+nav a {
+    color: rgb(245, 250, 249);
+    text-decoration: none;
+    font-size: 18px;
+    }
+nav a:hover {
+    background-color: rgb(105, 192, 127);
+    color: rgb(202, 119, 80);
+    padding:12px
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+    <img src="../img/logo quán.png">
+    <h1> COFFEE TÁM CHUYỆN </h1>
+    
+</header>
+<nav><a href="index.html"> Trang Chủ </a>
+    <a href="gioithieu.html">Giới thiệu</a>
+    <a href="menu.html">Thực đơn</a>
+    <a href="lienhe.html">Liên hệ</a></nav>
+    <main>
+        <div class="section">
+            <h2>Thông tin liên hệ</h2>
+            <p>Bạn có thể gửi phản hồi hoặc thắc mắc qua biểu mẫu dưới đây:</p>
+            <form>
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="5" placeholder="Nội dung liên hệ" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
